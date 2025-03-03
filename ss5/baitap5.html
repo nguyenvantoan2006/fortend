@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Groups of Selectors</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 800px;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #0056b3;
+        }
+        .code-box {
+            background: #fff8dc;
+            padding: 15px;
+            border-left: 5px solid #ffcc00;
+            font-family: monospace;
+            white-space: pre-line;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>5. Groups of selectors</h1>
+        <p>A comma-separated list of selectors represents the union of all elements selected by each of the individual selectors in the list.</p>
+        <p>For example, in CSS when several selectors share the same declarations, they may be grouped into a comma-separated list.</p>
+        <div class="code-box">
+            CSS example:
+            In this example, we condense three rules width indentical declarations into on. Thus,
+
+            h1 { font-family: sans-serif }
+            h2 { font-family: sans-serif }
+            h3 { font-family: sans-serif }
+
+            is equivalent to:
+
+            h1, h2, h3 { font-family: sans-serif }
+        </div>
+    </div>
+</body>
+</html>
