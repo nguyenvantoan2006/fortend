@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+}
+header{
+    background-color: #007bff;
+    color: aliceblue;
+    padding: 10%;
+}
+nav a{
+    color: azure;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold; /*làm đậm chữ
+.profile {
+    display: flex; /* Giúp ảnh và chữ nằm ngang hàng */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    justify-content: center; /* Căn giữa trong trang */
+    gap: 20px; /* Khoảng cách giữa ảnh và chữ */
+    text-align: left; /* Căn chữ về bên trái */
+}
+.b1{
+    
+    color: #101010;
+    text-align: center;
+    
+}
+.profile img {
+    width: 120px; /* Kích thước ảnh */
+    height: 120px;
+    border-radius: 50%; /* Bo tròn ảnh */
+    border: 3px solid blue; /* Viền xanh */
+}
+
+footer {
+    background: #e9ecef;
+    padding: 10px;
+    font-size: 14px;
+}

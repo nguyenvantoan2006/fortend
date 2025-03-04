@@ -1,0 +1,86 @@
+main-box
+{
+    width: 1000px;
+    height: 420px;
+    background-color: rgb(122, 117, 121);
+}
+
+.header-box
+{
+    width: 100%;
+    height: 15%;
+    background-color: #101010;
+    display: flex;                  
+    justify-content: space-between;       
+    align-items: center;           
+    text-align: center;  
+}
+
+.text-in-header
+{
+    font-size: 15px;
+    color: white;
+    padding: 10px;
+}
+p
+{
+    color: white;
+    text-decoration: none;
+}
+.image-container img {
+    width: 100px; /* Đặt kích thước ảnh */
+    height: 100px;
+    border-radius: 50%; /* Biến ảnh thành hình tròn */
+    object-fit: cover; /* Cắt ảnh để giữ tỷ lệ phù hợp */
+}
+.b1{
+    
+    color: #101010;
+    text-align: center;
+    
+}
+.body{
+    display: flex;
+    justify-content: left;
+            align-items: center;
+            height: 30vh;
+}
+
+
+.end{
+    height: 15vh;
+    background-color: #f7f7fc;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    
+    background-color: #f7f7fc;
+}
+
+.project {
+    background-color: #1e1e24;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    flex: 1;
+}
+
+.Conclusion{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+            align-items: center;
+            height: 2vh;
+            background-color: #7d7777;
+}
+a{
+    color: #101010;
+}
