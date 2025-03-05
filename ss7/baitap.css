@@ -1,0 +1,59 @@
+body{
+    width: 700PX;
+    background-color: white;
+    display: flex;
+    align-items: flex-start; /* Căn lên trên */
+    justify-content: flex-start; /* Căn sang trái */
+    height: 100vh; /* Đảm bảo trang chiếm đủ chiều cao */
+}
+.container{
+    background-color: #adadad;
+    width: 60%;
+    margin: 10px;
+    padding: 30px;
+    position: fixed; /* Định vị tuyệt đối */
+    top: 0; /* Căn sát mép trên */
+    left: 0; /* Căn sát mép trái */
+    padding: 20px; 
+
+}
+.benefits li::before { 
+    color: red;
+    font-weight: bold;
+    margin-right: 10px;
+}
+h1{
+    color: #140046;
+}
+.benefits {
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+    text-align: left;
+}
+
+.benefits li {
+    display: flex; /* Dùng Flexbox để căn chỉnh */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    gap: 12px; /* Giữ khoảng cách giữa dấu tích và nội dung */
+    margin: 10px 0;
+}
+
+.benefits li img {
+    width: 24px;  /* Cố định kích thước dấu tích */
+    height: 24px;
+
+}
+
+.red-button {
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+    border: none;
+} 
+.white-button{
+    color: #140046;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+} 

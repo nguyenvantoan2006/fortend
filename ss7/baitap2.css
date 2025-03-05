@@ -1,0 +1,36 @@
+.table {
+    border-collapse: collapse;
+    text-align: center;
+    border: 1px solid gray;
+    width: 100px;
+}
+body{
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f8f8;
+}
+td {
+    padding: 15px;
+}
+.box{
+    min-height: 200px;
+    width: 250px;
+    padding: 20px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+   
+}
+h1{
+    color: red;
+}
+p{
+    color: darkblue;
+}
+.container{
+    display: flex;
+    background-color: rgb(190, 187, 187);
+    width: 78%;
+}

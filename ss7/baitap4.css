@@ -1,0 +1,21 @@
+.menu{
+    border-left: 7px solid rgb(255, 106, 7) ;
+    padding-left: 10px;
+    font-size: 14px;
+ }
+ .tick{
+     border: 1px solid rgb(226, 226, 226);
+ }
+ img{
+     width: 400px;
+     height: 500px;
+ }
+ .body{
+     margin:10px;
+     width: 370px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ p{
+     font-weight: bolder;
+ }
+ 
