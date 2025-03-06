@@ -1,0 +1,46 @@
+body{
+    display: flex;
+}
+/* Căn chỉnh container */
+.container {
+    display: flex;
+    justify-content: center; /* Căn giữa */
+    margin-top: 50px;
+    border-right: 1px solid black;
+    align-items: stretch;
+}
+
+/* Định dạng từng card */
+.card {
+    width: 350px;
+    border: 1px solid #ddd; /* Viền xám nhạt */
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+}
+/* Định dạng ngày tháng */
+.date {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+/* Định dạng tiêu đề */
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+/* Định dạng ảnh */
+.card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+.btn{
+    width: 100px; /* Tăng chiều rộng */
+    height: 40px;
+    background-color: white;
+}

@@ -1,0 +1,34 @@
+body{
+
+}
+.form-container{
+    background: rgba(29, 22, 46, 0.947);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 400px;
+
+
+
+}
+.form-rows{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+}
+input,textarea{
+    background: rgba(29, 22, 46, 0.947);
+    border-radius: 5px;
+}
+button{
+    border-radius: 5px;
+    
+}
+label{
+    color: white;
+}
+textarea{
+    width: 300px;
+    height: 100px;
+}
