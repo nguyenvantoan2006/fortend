@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.row {
+    display: flex;
+    width: 90%;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.big {
+    flex: 2;
+    background-color: #2C3E50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.small-container {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr)
+
+}
+
+.small {
+   
+    background-color: #2C3E50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 18px;
+}

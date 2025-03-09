@@ -1,0 +1,32 @@
+.header {
+  background-color: #3498db;
+  color: white;
+  text-align: left;
+  padding: 15px;
+  font-size: 20px;
+}
+.container {
+  display: flex;
+}
+.sidebar {
+  background-color: #2ecc71;
+  color: white;
+  width: 25%;
+  padding: 20px;
+  min-height: 300px;
+}
+.content {
+  background-color: #e74c3c;
+  color: white;
+  width: 75%;
+  padding: 20px;
+  min-height: 300px;
+}
+.footer {
+  background-color: #9b59b6;
+  color: white;
+  text-align: left;
+  padding: 15px;
+  font-size: 20px;
+  margin-top: 10px;
+}
