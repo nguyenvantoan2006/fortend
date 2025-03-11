@@ -1,0 +1,59 @@
+.container{
+   
+    margin: auto;
+    background-color: #f5e4d5;
+}
+
+.header {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 20px 40px; /* Giảm padding để gọn gàng hơn */
+}
+
+
+
+.header .nav {
+    display: flex;
+    gap: 20px;
+}
+.header .nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: auto;
+    gap: 40px; /* Tạo khoảng cách giữa text và ảnh */
+}
+.text p {
+    color: #555;
+}
+.button {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.profile img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 2px solid white;
+
+   
+    
+}
+
+.text h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+}

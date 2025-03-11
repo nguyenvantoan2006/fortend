@@ -1,0 +1,49 @@
+body {
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.container {
+    width: 700px;
+    background: #e0e0e0;
+    padding: 20px;
+    border-radius: 8px;
+}
+.post {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+.post img{
+    border-radius: 5px;
+    width: 150px;
+    height: 150px;
+    margin-right: 20px;
+}
+.number{
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+.category {
+    color: gray;
+    font-size: 14px;
+    margin-left: 10px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.coppy{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+

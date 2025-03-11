@@ -1,0 +1,29 @@
+.nav{
+    gap: 20px;
+    display: flex;
+}
+.header{
+    display: flex;
+    background-color: #ddd;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+  
+}
+.logo{
+    font-family: 'Brush Script MT', cursive;
+}
+.nav a{
+    text-decoration: none;
+    color: #666;
+}
+.nav a:first-child{
+    color: black;
+}
+.search-btn{
+    background-color: #999;
+    border-radius: 5px;
+    color: white;
+}
+
