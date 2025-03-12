@@ -1,0 +1,88 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    gap: 10px; 
+}
+
+.box {
+    height: 80px;
+    flex: 1;
+}
+
+.box1, .box4 {
+    background: lightblue;
+    height: 50px;
+    width: 100%;
+}
+
+.box2 {
+    background: tomato;
+}
+
+.box3 {
+    background: orange;
+}
+.row-2 .box2,
+.row-2 .box3 {
+    flex: 1;
+}
+.box5 {
+    background: navy;
+}
+.box6 {
+    background: lightcoral;
+}
+.box7 {
+    background: gold;
+}
+.row-3 .box5,
+.row-3 .box6,
+.row-3 .box7 {
+    flex: 1;
+}
+@media (max-width: 1024px) {
+    .container {
+        width: 95%;
+    }
+
+    .row {
+        flex-wrap: wrap; 
+    }
+
+    .box {
+        height: 60px;
+    }
+
+    .box1, .box4 {
+        height: 40px;
+    }
+
+    
+    .row-2 .box2,
+    .row-2 .box3,
+    .row-3 .box5,
+    .row-3 .box6,
+    .row-3 .box7 {
+        flex-basis: calc(50% - 5px); 
+    }
+
+    
+    @media (max-width: 600px) {
+        .row-2 .box2,
+        .row-2 .box3,
+        .row-3 .box5,
+        .row-3 .box6,
+        .row-3 .box7 {
+            flex-basis: 100%;
+        }
+    }
+}
+

@@ -1,0 +1,89 @@
+
+.container {
+    background: #ffffff;
+    display: grid;
+    grid-template-areas: 
+        "header header header"
+        "sidebar1 content sidebar2"
+        "footer footer footer";
+    grid-template-columns: 19% 60% 19%;
+    gap: 10px;
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+
+header {
+    grid-area: header;
+    background: red;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sidebar1 {
+    grid-area: sidebar1;
+    background: green;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.content {
+    grid-area: content;
+    background: yellow;
+    padding: 20px;
+    border-radius: 10px;
+   text-align: center;
+}
+
+.sidebar2 {
+    grid-area: sidebar2;
+    background: pink;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+footer {
+    grid-area: footer;
+    background: blue;
+    text-align: center;
+    
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .container {
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
+        
+        gap: 10px;
+    }
+
+    header, footer {
+        width: 100%;
+        text-align: center;
+    }
+
+    .sidebar1, .sidebar2, .content {
+        width: 90%; 
+    }
+
+    
+    .sidebars {
+        display: flex;
+        justify-content: space-between; 
+        width: 90%;
+    }
+
+    .sidebar1, .sidebar2 {
+        width: 48%; 
+        text-align: center;
+    }
+}
