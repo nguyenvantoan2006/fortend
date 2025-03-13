@@ -1,0 +1,10 @@
+
+.card-img-overlay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.card-img-icon{
+    display: flex;
+}
