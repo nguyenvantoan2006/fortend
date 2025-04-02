@@ -41,5 +41,5 @@ function calculatorMenu() {
     console.log("Chương trình kết thúc.");
 }
 
-// Chạy chương trình
+
 calculatorMenu();
