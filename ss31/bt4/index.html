@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Modal  Example</h2>
+    <button onclick="openModal()">Open Modal</button>
+    <div id="myModal" style="display:none; position:fixed; z-index:1; left:0; top:0; width:100%; height:100%; background-color:rgba(0,0,0,0.5);">
+    <div style="background:white; margin:15% auto; padding:20px; width:300px; position:relative; border-radius:5px;">
+        <span onclick="closeModal()" style="position:absolute; top:5px; right:10px; cursor:pointer;">&times;</span>
+         <p>lam vo anh nhe</p>
+        </div>
+    </div>
+        
+    <script src="main.js"></script>
+</body>
+</html>
