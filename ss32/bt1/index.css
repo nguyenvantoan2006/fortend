@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 30px;
+}
+
+h3 {
+  color: black;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.box {
+  width: 250px;
+  height: 150px;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid #999;
+}
+
+.highlight {
+  color: red;
+}
